@@ -1,0 +1,43 @@
+body {
+  font-family: "Comic Sans MS", serif;
+}
+
+.margin-big {
+  margin-bottom: 40px;
+}
+
+.navbar {
+  border-radius: 0;
+  border-right: 0;
+}
+
+section {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 767px) {
+
+  #collapsable-nav {
+    background-color: #fff;
+  }
+
+  .navbar-nav {
+    margin: 0px -15px;
+  }
+
+  nav ul {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+  }
+
+  nav li {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+  }
+
+  .row {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+}
